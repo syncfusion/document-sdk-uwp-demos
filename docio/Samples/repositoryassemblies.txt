@@ -1,0 +1,2 @@
+Syncfusion.DocIO.UWP
+Syncfusion.SampleBrowser.UWP.DocIO

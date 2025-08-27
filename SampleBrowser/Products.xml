@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SampleBrowser>
+<Assemblies Prefix="Syncfusion.SampleBrowser.UWP" QualifiedInfo="Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ConfigurationFile="SamplesConfiguration">
+  <Assembly Name="DocIO" />  
+  <Assembly Name="Pdf" />
+  <Assembly Name="Presentation" />
+  <Assembly Name="XlsIO" />
+</Assemblies>
+</SampleBrowser>
