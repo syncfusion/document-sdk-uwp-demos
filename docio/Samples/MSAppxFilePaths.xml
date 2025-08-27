@@ -1,0 +1,268 @@
+<Products>
+<Product Name="Syncfusion.SampleBrowser.UWP.Gauge">
+<Files>
+<File>Gauge\GaugeHelperClass.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Schedule">
+<Files>
+<File>Schedule\Schedule\View\ResourceDemo_WinRT.xaml.cs</File>
+<File>Schedule\Schedule\View\CustomizationDemo.xaml.cs</File>
+<File>Schedule\Schedule\View\CustomizationDemo_WinRT.xaml</File>
+<File>Schedule\Schedule\View\CustomizationDemo_WinRT.xaml.cs</File>
+<File>Schedule\Schedule\ScheduleHelperClass.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.TreeMap">
+<Files>
+<File>TreeMap\TreeMap\ViewModel\TreeMapCustomizationViewModel.cs</File>
+<File>TreeMap\TreeMapHelperClass.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Maps">
+<Files>
+<File>MapControl\MapsHelperClass.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.RichTextEditor">
+<Files>
+<File>RichTextEditor\RTE\CustomizedEditor\DeviceFamily-Mobile\CustomizedEditor.xaml</File>
+<File>RichTextEditor\RTE\DeviceFamily-Mobile\DocumentEditor.xaml</File>
+<File>RichTextEditor\RTE\DocumentEditor.xaml</File>
+<File>RichTextEditor\RTE\DocumentEditor.xaml.cs</File>
+<File>RichTextEditor\RTE\CustomizedEditor\CustomizedEditor.xaml.cs</File>
+<File>RichTextEditor\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.DocIO">
+<Files>
+<File>DocIO\SampleConfiguration.cs</File>
+<File>DocIO\DocIO\Invoice\AddressDialog.xaml</File>
+<File>DocIO\DocIO\Invoice\Common\IOStandardStyles.xaml</File>
+<File>DocIO\DocIO\Invoice\DeviceFamily-Mobile\AddressDialog.xaml</File>
+<File>DocIO\DocIO\Invoice\DeviceFamily-Mobile\FieldDialog.xaml</File>
+<File>DocIO\DocIO\Invoice\DeviceFamily-Mobile\MainPage.xaml</File>
+<File>DocIO\DocIO\Invoice\FieldDialog.xaml</File>
+<File>DocIO\DocIO\Invoice\MainPage.xaml</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.ReportViewer">
+<Files>
+<File>ReportViewer\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfCellGrid">
+<Files>
+<File>SfCellGrid\SamplesConfiguration.cs</File>
+<File>SfCellGrid\Tutorials\ExcelLikeUI.xaml</File>
+<File>SfCellGrid\Tutorials\DeviceFamily-Mobile\ExcelLikeUI.xaml</File>
+<File>SfCellGrid\Tutorials\CellTypes.xaml</File>
+<File>SfCellGrid\Tutorials\CellTemplate.xaml.cs</File>
+<File>SfCellGrid\Tutorials\CellComments.xaml.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfSpreadsheet">
+<Files>
+<File>SfSpredsheet\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Calculate">
+<Files>
+<File>Calculate\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Editors">
+    <Files>
+      <File>Editor\Calendar\Controls\CellTemplateView.xaml.cs</File>
+      <File>Editor\Editors\Controls\AutoComplete\AutoCompleteProperties.cs</File>
+      <File>Editor\Calendar\Controls\Templates.xaml</File>
+      <File>Editor\Editors\Controls\ComboBox\ComboBoxProperties.cs</File>
+      <File>Editor\SamplesConfiguration.cs</File>
+      <File>Editor\DateTimePickers\Controls\CelltemplateView.xaml.cs</File>
+      <File>Editor\Editors\Controls\EditAutoCompleteView.xaml.cs</File>
+	  <File>Editor\Showcase\SamplePage.xaml</File>
+    </Files>
+  </Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Navigation">
+    <Files>
+      <File>Navigation\TabControl\View\TabControlProperties.cs</File>
+      <File>Navigation\Editors\SamplesConfiguration.cs</File>
+	  <File>Navigation\ProgressBar\Custom\ProgressBarCustomProperties.cs</File>
+	  <File>Navigation\RadialMenu\RadialMenuView.xaml</File>
+    </Files>
+  </Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Layout">
+    <Files>
+      <File>Layout\Accordion\ViewModel.cs</File>
+      <File>Layout\Carousel\View\CarouselProperties.cs</File>
+      <File>Layout\Ribbon\BackStageView\HistoryView.xaml</File>
+      <File>Layout\Ribbon\BackStageView\NewView.xaml</File>
+      <File>Layout\Ribbon\BackStageView\SaveView.xaml</File>
+      <File>Layout\Ribbon\BackStageView\ShareView.xaml</File>
+      <File>Layout\Ribbon\BackStageView\UserView.xaml</File>
+      <File>Layout\Ribbon\View\CustomBackStagePage.xaml</File>
+      <File>Layout\Ribbon\View\RibbonSamplePage.xaml</File>
+	  <File>Layout\Ribbon\View\DeviceFamily-Mobile\RibbonSamplePage.xaml</File>
+      <File>Layout\Ribbon\View\DeviceFamily-Mobile\CustomBackStagePage.xaml</File>
+      <File>Layout\SamplesConfiguration.cs</File>
+	  <File>Layout\Ribbon\View\CustomBackStagePage.xaml.cs</File>
+	  <File>Layout\Ribbon\View\RibbonSamplePage.xaml.cs</File>
+	  <File>Layout\TileView\View\DeviceFamily-Mobile\TileView.xaml</File>
+	  <File>Layout\TileView\View\Template_Winrt.xaml</File>
+	  <File>Layout\TileView\View\Template_WP.xaml</File>
+	  <File>Layout\TileView\View\TileView.xaml</File>
+	  <File>Layout\TileView\View\TileView.xaml.cs</File>
+	  <File>Layout\TileView\View\TileViewProperties.cs</File>
+	  <File>Layout\Docking Manager\Views\DockingManagerLocalization.xaml</File>
+	  <File>Layout\Docking Manager\Views\DockingManagerLocalization.xaml.cs</File>
+	  <File>Layout\Docking Manager\Views\DockingManagerVisualStudio.xaml</File>
+	  <File>Layout\Docking Manager\Views\DockingManagerSerialization.xaml</File>
+    </Files>
+  </Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.PivotGrid">
+<Files>
+<File>PivotGrid\PivotGrid\View\Converters\ImageConverter.cs</File>
+<File>PivotGrid\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.PivotClient">
+<Files>
+<File>PivotClient\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.PivotChart">
+<Files>
+<File>PivotChart\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.PivotGauge">
+<Files>
+<File>PivotGauge\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.PredictiveAnalytics">
+<Files>
+<File>PredictiveAnalytics\SamplesConfiguration.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\AssociationRules.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\CoxRegression.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\ClusteringModel.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\GeneralRegression.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\GradientBoosting.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\MultinomialRegression.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\NeuralNetworks.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\NaiveBayes.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\RandomForest.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\Regression.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\SupportVectorMachine.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\TreeModel.xaml.cs</File>
+<File>PredictiveAnalytics\PredictiveAnalytics\ShowCase\AuditDemo\ViewModel\ViewModel.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfChart">
+<Files>
+<File>SfChart\Chart\Tutorials\ChartSamples\Annotation\AnnotationDemo.xaml</File>
+<File>SfChart\Chart\Tutorials\ChartSamples\Annotation\DeviceFamily-Mobile\AnnotationDemo.xaml</File>
+<File>SfChart\Chart\Tutorials\ChartSamples\ToolTip\ToolTipDemo.xaml.cs</File>
+<File>SfChart\Helper\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfKanban">
+<Files>
+<File>SfKanban\SfKanban\Getting Started.xaml.cs</File>
+<File>SfKanban\SfKanban\Pizza Hut.xaml.cs</File>
+<File>SfKanban\Helper\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Pdf">
+<Files>
+<File>PDF\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.HeatMap">
+<Files>
+<File>HeatMap\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.Diagram">
+<Files>
+<File>Diagram\SamplesConfiguration.cs</File>
+<File>Diagram\Showcase\CommonUtility\CommonView\DiagramFrontPage.xaml</File>
+<File>Diagram\Showcase\CommonUtility\CommonView\DiagramFrontPage.xaml.cs</File>
+<File>Diagram\Showcase\DiagramBuilder\MainPage.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\Theme\DiagramBuilderUI.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\View\DiagramBuilder.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\View\DiagramContainer.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\View\Property\PropertyEditor.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\View\Property\PropertyPanel.xaml</File>
+<File>Diagram\Showcase\DiagramBuilder\View\Property\SelectionCommands.xaml</File>
+<File>Diagram\Showcase\FloorPlannerDemo\MainPage.xaml</File>
+<File>Diagram\Showcase\FloorPlannerDemo\Utility\FloorPlanSymbolItem.cs</File>
+<File>Diagram\Showcase\FloorPlannerDemo\View\AddAnnotation.xaml</File>
+<File>Diagram\Showcase\FloorPlannerDemo\View\FloorPlanAppBarView.xaml</File>
+<File>Diagram\Showcase\FloorPlannerDemo\View\FloorPlannerDiagram.xaml</File>
+<File>Diagram\Showcase\MindMapDemo\MainPage.xaml</File>
+<File>Diagram\Showcase\MindMapDemo\Model\MapModel.cs</File>
+<File>Diagram\Showcase\MindMapDemo\View\MindAppBarView.xaml</File>
+<File>Diagram\Showcase\MindMapDemo\View\MindMapDiagram.xaml.cs</File>
+<File>Diagram\Showcase\MindMapDemo\ViewModel\MapViewModel.cs</File>
+<File>Diagram\Showcase\Mockup\BusinessObject\BusinessObject.cs</File>
+<File>Diagram\Showcase\Mockup\BusinessObject\CustomBinding.cs</File>
+<File>Diagram\Showcase\Mockup\MainPage.xaml</File>
+<File>Diagram\Showcase\Mockup\View\FrameStudio.xaml</File>
+<File>Diagram\Showcase\Mockup\ViewModel\DiagramVM.cs</File>
+<File>Diagram\Showcase\Organizational Layout\MainPage.xaml</File>
+<File>Diagram\Showcase\Organizational Layout\Utilities\Conveters.cs</File>
+<File>Diagram\Showcase\Organizational Layout\Utilities\OrgNodeViewModel.cs</File>
+<File>Diagram\Showcase\Organizational Layout\View\OrgDiagram.xaml</File>
+<File>Diagram\Showcase\Organizational Layout\View\OrgDiagram.xaml.cs</File>
+<File>Diagram\Showcase\UMLDiagramDesigner\MainPage.xaml</File>
+<File>Diagram\Showcase\UMLDiagramDesigner\View\AppBarView.xaml</File>
+<File>Diagram\Showcase\UMLDiagramDesigner\View\NodeEditor.xaml</File>
+<File>Diagram\Showcase\WorkFlowEditor\MainPage.xaml</File>
+<File>Diagram\Showcase\WorkFlowEditor\Utility\Converter.cs</File>
+<File>Diagram\Showcase\WorkFlowEditor\View\AppBarView.xaml</File>
+<File>Diagram\Showcase\WorkFlowEditor\View\ProcessAutomationDiagram.xaml</File>
+<File>Diagram\Template\FloorPlanDictionary.xaml</File>
+<File>Diagram\Template\NodeDataTemplateSelector.cs</File>
+<File>Diagram\Template\NodeTypeTemplates.xaml</File>
+<File>Diagram\Template\OrgNodeContentTemplate.xaml</File>
+<File>Diagram\Template\ProcessNodeEditorTemplate.xaml</File>
+<File>Diagram\Tutorial\CircuitDiagram.xaml</File>
+<File>Diagram\Tutorial\FlowDiagram.xaml</File>
+<File>Diagram\Tutorial\HierarchicalTree.xaml</File>
+<File>Diagram\Tutorial\IshikawaDiagram.xaml</File>
+<File>Diagram\Tutorial\NodeContent.xaml</File>
+<File>Diagram\Tutorial\OrganizationChart.xaml</File>
+<File>Diagram\Tutorial\OrganizationChart.xaml.cs</File>
+<File>Diagram\Tutorial\Overview.xaml</File>
+<File>Diagram\Tutorial\RadialTree.xaml</File>
+<File>Diagram\Tutorial\RadialTree.xaml.cs</File>
+<File>Diagram\Tutorial\RulerAndUnit.xaml</File>
+<File>Diagram\Tutorial\Selector.xaml</File>
+<File>Diagram\Tutorial\SequenceDiagram.xaml</File>
+<File>Diagram\Tutorial\Stencil.xaml</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.XlsIO">
+<Files>
+<File>XlsIO\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfTreeGrid">
+<Files>
+<File>SfTreeGrid\Helpers\Converters.cs</File>
+<File>SfTreeGrid\Helpers\SelectionConverters.cs</File>
+<File>SfTreeGrid\Views\Exporting\PdfExporting.xaml.cs</File>
+<File>SfTreeGrid\SamplesConfiguration.cs</File>
+</Files>
+</Product>
+<Product Name="Syncfusion.SampleBrowser.UWP.SfDataGrid">
+<Files>
+<File>SfDataGrid\SfDataGridSampleHelper.cs</File>
+<File>SfDataGrid\ShowCase\ExpenseAnalysisDemo\ExpenseAnalysisDemo.xaml</File>
+<File>SfDataGrid\ShowCase\ExpenseAnalysisDemo\View\ChartView.xaml</File>
+<File>SfDataGrid\Tutorials\PdfExporting.xaml.cs</File>
+<File>SfDataGrid\Tutorials\VisualStyles.xaml.cs</File>
+</Files>
+</Product>
+</Products>

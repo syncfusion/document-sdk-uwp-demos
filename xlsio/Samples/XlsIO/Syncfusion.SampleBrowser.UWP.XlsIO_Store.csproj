@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55694D0F-07E4-4B35-B0E4-939EF98E1014}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Syncfusion.SampleBrowser.UWP.XlsIO</RootNamespace>
+    <AssemblyName>Syncfusion.SampleBrowser.UWP.XlsIO</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Syncfusion.SampleBrowser.UWP.XlsIO_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Xml|AnyCPU'">
+    <OutputPath>bin\Release-Xml\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Release-Xml\Syncfusion.SampleBrowser.UWP.XlsIO.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Xml|x86'">
+    <OutputPath>bin\x86\Release-Xml\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\x86\Release-Xml\Syncfusion.SampleBrowser.UWP.XlsIO.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Xml|ARM'">
+    <OutputPath>bin\ARM\Release-Xml\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Xml|x64'">
+    <OutputPath>bin\x64\Release-Xml\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;STORE_SB</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008;CS0108</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Resources\Templates\TemplateMarker.xlsx">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Resources\Templates\RangeManipulation.xls">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Resources\Templates\RangeManipulation.xlsx">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SamplesConfiguration.cs" />
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\Charts\Chart.xaml.cs">
+      <DependentUpon>Chart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\Formulas\Formulas.xaml.cs">
+      <DependentUpon>Formulas.xaml</DependentUpon>
+    </Compile>
+	<Compile Include="XlsIO\Tutorials\Samples\Controls\External Formula\ExternalFormula.xaml.cs">
+      <DependentUpon>ExternalFormula.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportCollectionObject\ImportCollectionObject.xaml.cs">
+      <DependentUpon>ImportCollectionObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml.cs">
+      <DependentUpon>ImportNestedCollection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\RangeManipulation\RangeManipulation.xaml.cs">
+      <DependentUpon>RangeManipulation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\TemplateMarker\Customer.cs" />
+    <Compile Include="XlsIO\Tutorials\Samples\Controls\TemplateMarker\TemplateMarker.xaml.cs">
+      <DependentUpon>TemplateMarker.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Syncfusion.SampleBrowser.UWP.XlsIO_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Default.rd.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LockScreenLogo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SplashScreen.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square150x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StoreLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wide310x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\Samples.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Logo.scale-100.png">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Resources\Templates\CLRObjects.xml">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\Resources\Templates\customers.xml">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\SmallLogo.scale-100.png">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\SplashScreen.scale-100.png">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\StoreLogo.scale-100.png">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XlsIO\Tutorials\Samples\Assets\WideLogo.scale-100.png">
+      <CopyToOutputDirectory>False</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="XlsIO\Tutorials\Samples\Controls\Charts\Chart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="XlsIO\Tutorials\Samples\Controls\Formulas\Formulas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+	<Page Include="XlsIO\Tutorials\Samples\Controls\External Formula\ExternalFormula.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="XlsIO\Tutorials\Samples\Controls\ImportCollectionObject\ImportCollectionObject.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+	<Page Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="XlsIO\Tutorials\Samples\Controls\RangeManipulation\RangeManipulation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="XlsIO\Tutorials\Samples\Controls\TemplateMarker\TemplateMarker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.SampleBrowser.UWP.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SampleBrowser\Assemblies\Syncfusion.SampleBrowser.UWP.Common.dll</HintPath>
+    </Reference>
+	 <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.6</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Syncfusion Controls for UWP XAML, Version=14.2.0.17">
+      <Name>Syncfusion Controls for UWP XAML</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+   	<EmbeddedResource Include="SyncfusionLicense.txt" />
+  </ItemGroup>
+</Project>

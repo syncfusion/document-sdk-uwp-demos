@@ -1,0 +1,2 @@
+Syncfusion.Presentation.UWP
+Syncfusion.SampleBrowser.UWP.Presentation
