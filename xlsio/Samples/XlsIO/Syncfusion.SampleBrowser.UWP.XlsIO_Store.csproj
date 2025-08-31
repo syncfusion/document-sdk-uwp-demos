@@ -190,12 +190,6 @@
 	<Compile Include="XlsIO\Tutorials\Samples\Controls\External Formula\ExternalFormula.xaml.cs">
       <DependentUpon>ExternalFormula.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportCollectionObject\ImportCollectionObject.xaml.cs">
-      <DependentUpon>ImportCollectionObject.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml.cs">
-      <DependentUpon>ImportNestedCollection.xaml</DependentUpon>
-    </Compile>
     <Compile Include="XlsIO\Tutorials\Samples\Controls\RangeManipulation\RangeManipulation.xaml.cs">
       <DependentUpon>RangeManipulation.xaml</DependentUpon>
     </Compile>
@@ -278,14 +272,6 @@
       <SubType>Designer</SubType>
     </Page>
 	<Page Include="XlsIO\Tutorials\Samples\Controls\External Formula\ExternalFormula.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="XlsIO\Tutorials\Samples\Controls\ImportCollectionObject\ImportCollectionObject.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-	<Page Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
