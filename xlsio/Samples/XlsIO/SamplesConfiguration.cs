@@ -632,24 +632,6 @@ namespace Syncfusion.SampleBrowser.UWP.XlsIO
 #endif
                 SampleHelper.SampleViews.Add(new SampleInfo()
                 {
-                    Header = "Collection Object",
-                    SampleCategory = "Data Binding",
-                    Product = "XlsIO",Category = Categories.FileFormat,
-                    SearchKeys = new string[] { "XlsIO", "Collection object", "import" },
-                    SampleView = typeof(EssentialXlsIO.ImportCollectionObject).AssemblyQualifiedName,
-                    Tag = Tags.None
-                });
-                SampleHelper.SampleViews.Add(new SampleInfo()
-                {
-                    Header = "Import Nested Collection",
-                    SampleCategory = "Data Binding",
-                    Product = "XlsIO",Category = Categories.FileFormat,
-                    SearchKeys = new string[] { "XlsIO", "Import Nested Collection", "import" },
-                    SampleView = typeof(EssentialXlsIO.ImportNestedCollection).AssemblyQualifiedName,
-                    Tag = Tags.None
-                });
-                SampleHelper.SampleViews.Add(new SampleInfo()
-                {
                     Header = "Template Marker",
                     SampleCategory = "Data Binding",
                     Product = "XlsIO",Category = Categories.FileFormat,
