@@ -359,9 +359,6 @@
     <Compile Include="XlsIO\Tutorials\Samples\Controls\GettingStarted\CreateSpreadsheet.xaml.cs">
       <DependentUpon>CreateSpreadsheet.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml.cs">
-      <DependentUpon>ImportNestedCollection.xaml</DependentUpon>
-    </Compile>
     <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportXML\Extensions.cs" />
     <Compile Include="XlsIO\Tutorials\Samples\Controls\ImportXML\ImportXML.xaml.cs">
       <DependentUpon>ImportXML.xaml</DependentUpon>
@@ -635,10 +632,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="XlsIO\Tutorials\Samples\Controls\GettingStarted\CreateSpreadsheet.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="XlsIO\Tutorials\Samples\Controls\ImportNestedCollection\ImportNestedCollection.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
