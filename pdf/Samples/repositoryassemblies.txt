@@ -1,2 +1,0 @@
-Syncfusion.Pdf.UWP
-Syncfusion.SampleBrowser.UWP.Pdf
