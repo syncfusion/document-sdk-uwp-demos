@@ -9,7 +9,6 @@ This section guides you to use the Syncfusion UWP samples in your applications.
 * [Documentation](#documentation)
 * [License](#license)
 * [Using the samples](#using-the-samples)
-* [Controls Catalog](#controls-catalog)
 * [Support and Feedback](#support-and-feedback)
 
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
