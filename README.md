@@ -72,7 +72,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 
 ## <a name="support-and-feedback"></a>Support and Feedback ##
 
-* For any other queries, reach our [Syncfusion support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing).
+* For any other queries, reach our [Syncfusion support team](https://support.syncfusion.com/) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing).
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
   
