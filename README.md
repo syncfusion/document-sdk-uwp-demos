@@ -1,4 +1,4 @@
-﻿# Syncfusion® UWP samples 
+﻿# Syncfusion® Document SDK UWP samples 
 
 This repository contains the demos of [Syncfusion Document SDK for UWP](https://www.syncfusion.com/document-processing). This is the best place to check our document processing libraries to get more insight about the usage of APIs. The Document SDK includes comprehensive file format libraries for creating, manipulating, and converting various document formats, including PDF, Word, Excel, and PowerPoint.
 
@@ -20,19 +20,19 @@ The samples requires Windows 10 and Visual Studio 2015 or higher to build, test 
 ### Individual Document Format Demos
 You can run individual demos for specific document formats:
 
-#### Word Processing (DocIO)
+#### <a href="DocIO">DocIO (Word Processing)</a>
 * Open `Syncfusion.SampleBrowser.UWP.DocIO.sln` from the **DocIO** folder.
 * And run the project.
 
-#### PDF Processing
+#### <a href="PDF">PDF Processing</a>
 * Open `Syncfusion.SampleBrowser.UWP.Pdf.sln` from the **PDF** folder.
 * And run the project.
 
-#### PowerPoint Processing
+#### <a href="Presentation">Presentation (PowerPoint)</a>
 * Open `Syncfusion.SampleBrowser.UWP.Presentation.sln` from the **Presentation** folder.
 * And run the project.
 
-#### Excel Processing (XlsIO)
+#### <a href="XlsIO">XlsIO (Excel Processing)</a>
 * Open `Syncfusion.SampleBrowser.UWP.XlsIO.sln` from the **XlsIO** folder.
 * And run the project.
 
@@ -41,9 +41,14 @@ You can run individual demos for specific document formats:
 * Be sure to unzip the entire archive, and not just individual demos. The demos all depend on the common folder in the archive.
 * If you unzip individual demos, they will not build due to references to other portions of the ZIP file that were not unzipped. You must unzip the entire archive if you intend to build the samples.
 
-## <a name="documentation"></a>Documentation ##
+## <a name="documentation"></a>Documentation
 
-All controls documentation for the Syncfusion UWP controls can be found on [Syncfusion Help](https://help.syncfusion.com/uwp/overview?utm_source=github&utm_medium=listing). All API documentation can be found at the [API Reference](https://help.syncfusion.com/cr/uwp?utm_source=github&utm_medium=listing).
+* [Syncfusion Document Processing User Guide](https://help.syncfusion.com/document-processing/introduction)
+* [DocIO User Guide](https://help.syncfusion.com/document-processing/word/word-library/net/overview)
+* [PDF User Guide](https://help.syncfusion.com/document-processing/pdf/pdf-library/net/overview)
+* [Presentation User Guide](https://help.syncfusion.com/document-processing/powerpoint/powerpoint-library/net/overview)
+* [XlsIO User Guide](https://help.syncfusion.com/document-processing/excel/excel-library/net/overview)
+* [API Reference](https://help.syncfusion.com/cr/document-processing/Syncfusion.DocIO.html)
 
 ## <a name="license"></a>License ##
 
