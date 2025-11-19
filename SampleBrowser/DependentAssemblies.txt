@@ -1,0 +1,16 @@
+Syncfusion.Licensing.dll
+Syncfusion.OfficeChart.UWP.dll
+Syncfusion.DocIO.UWP.dll
+Syncfusion.Pdf.UWP.dll
+Syncfusion.XlsIO.UWP.dll
+Syncfusion.Presentation.UWP.dll
+Syncfusion.OfficeChartToImageConverter.UWP.dll
+Syncfusion.ExcelChartToImageConverter.UWP.dll
+Syncfusion.SfChart.UWP.dll
+Syncfusion.SfAccordion.UWP.dll
+Syncfusion.SfInput.UWP.dll
+Syncfusion.SfShared.UWP.dll
+Syncfusion.SfTabControl.UWP.dll
+Syncfusion.SfGrid.UWP.dll
+Syncfusion.Data.UWP.dll
+Syncfusion.SfBusyIndicator.UWP.dll
