@@ -543,7 +543,6 @@
 		<Compile Include="SampleLayout.xaml.cs">
 			<DependentUpon>SampleLayout.xaml</DependentUpon>
 		</Compile>
-		<PackageReference Include="Syncfusion.SampleBrowser.UWP.Common" Version="32.2.3"/>
 		<PackageReference Include="Syncfusion.SfAccordion.UWP" Version="32.2.3"/>
 		<PackageReference Include="Syncfusion.SfInput.UWP" Version="32.2.3"/>
 		<PackageReference Include="Syncfusion.SfShared.UWP" Version="32.2.3"/>
