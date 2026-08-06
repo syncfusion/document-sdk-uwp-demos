@@ -76,4 +76,4 @@ The easiest way to use these samples without using Git is to download the zip fi
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
   
-<p>Copyright © 2001-2026 Syncfusion®, Inc. Updated on 2026-07-08 at precisely 10:28:07 EST.</p>
+<p>Copyright © 2001-2026 Syncfusion®, Inc. Updated on 2026-08-06 at precisely 12:48:09 EST.</p>
